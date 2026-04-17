@@ -1,0 +1,13 @@
+{
+  "name": "tradestash",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix tradestash-web run dev",
+    "build": "npm --prefix tradestash-web run build",
+    "start": "npm --prefix tradestash-web run start",
+    "lint": "npm --prefix tradestash-web run lint",
+    "typecheck": "npm --prefix tradestash-web run typecheck",
+    "seed:firestore": "npm --prefix tradestash-web run seed:firestore",
+    "bootstrap": "npm --prefix tradestash-web install"
+  }
+}
